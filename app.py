@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load model
-model = pickle.load("iris_model.pkl")
+model = pickle.load(open("iris_model.pkl", "rb"))
 
 st.title("Iris Flower Prediction App 🌸")
 
